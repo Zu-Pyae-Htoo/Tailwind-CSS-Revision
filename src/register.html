@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <style>
+        @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css";
+
+        body{
+            background-image: url(https://img.freepik.com/free-vector/education-pattern-background-doodle-style_53876-115365.jpg?size=626&ext=jpg&ga=GA1.1.637714266.1696010260&semt=sph);
+            background-position: center;
+            background-size: contain;
+            }
+    </style>
+</head>
+<body>
+  <div class="flex h-screen w-full items-center justify-center">
+    <div class="w-[450px] bg-white p-8">
+      <h1 class="mb-4 font-serif text-2xl font-bold"><i class="fa-solid fa-user"></i> Register Form</h1>
+  
+      <div class="mb-4">
+        <label for="name" class="mb-2 block w-full text-sm text-gray-500">Your Name</label>
+        <input id="name" type="text" class="block w-full border-2 border-gray-500 p-1" />
+      </div>
+  
+      <div class="mb-4">
+        <label for="mail" class="mb-2 block w-full text-sm text-gray-500">Your Email</label>
+        <input id="mail" type="email" class="block w-full border-2 border-gray-500 p-1" />
+      </div>
+  
+      <div class="mb-4">
+        <label for="pass" class="mb-2 block w-full text-sm text-gray-500">Your Password</label>
+        <input id="pass" type="password" class="block w-full border-2 border-gray-500 p-1" />
+      </div>
+  
+      <div class="flex items-center">
+        <input type="checkbox" id="check" />
+        <label class="ms-2 inline w-full text-xs text-gray-500" for="check">Agree terms and conditions</label>
+      </div>
+  
+      <div class="mt-8">
+        <button class="w-full border-2 border-green-700 bg-green-700 p-1 text-white">Register</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
